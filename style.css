@@ -1,0 +1,123 @@
+@import url(https://fonts.google.com/specimen/Young+Serif);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Young Serif', serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.head {
+    width: 80%;
+    max-width: 600px; /* Adjust max-width as needed for responsiveness */
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.head img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.head h2 {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 2.2vw; /* Adjust font size for responsiveness */
+    color: hsl(24, 5%, 18%);
+}
+
+.head p {
+    padding-top: 10px;
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+ul h6 {
+    color: hsl(24, 5%, 18%);
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+}
+
+.marginleft {
+    margin-left: 40px;
+}
+
+ol > li {
+    font-size: 1vw; /* Adjust font size for responsiveness */
+}
+
+ol > h5 {
+    margin-bottom: 10px;
+    font-size: 1.8vw; /* Adjust font size for responsiveness */
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+ul > h5 {
+    font-size: 1.8vw; /* Adjust font size for responsiveness */
+    font-weight: 600;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutri > h5 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 1.8vw; /* Adjust font size for responsiveness */
+}
+
+.nut-2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.2vw; /* Adjust font size for responsiveness */
+}
+
+.attribution{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .head {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .head h2 {
+        font-size: 4vw;
+    }
+
+    .head p {
+        font-size: 1.5vw;
+    }
+
+    .prep {
+        padding: 8px;
+    }
+    ol > li {
+    font-size: 2vw;
+    }
+    ul h6, ol > h5, ul > h5, .nutri > h5, .nut-2 {
+        font-size: 5vw;
+    }
+}
